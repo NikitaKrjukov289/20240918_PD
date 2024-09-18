@@ -7,7 +7,7 @@
 
             <div class="form-group">
                 <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
-                <input value="{{ $playlist->name }}" type="text" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" id="name" name="name" required>
+                <input value="{{ $playlist->tag }}" type="text" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" id="name" name="name" required>
             </div>
             <div class="form-group">
                 <label for="tag" class="block text-sm font-medium text-gray-700">Tag</label>
